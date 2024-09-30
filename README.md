@@ -1,71 +1,60 @@
-# Elara README
-
-This is the README for your extension "Elara". After writing up a brief description, we recommend including the following sections.
-
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Certainly! Here’s a streamlined version of the README for your Visual Studio Code extension "Elara", focusing on the basic information without links or external references.
 
 ---
 
-## Following extension guidelines
+# Elara
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+This is the README for your Visual Studio Code extension "Elara". "Elara" integrates OpenAI's powerful GPT models into Visual Studio Code, enabling on-the-fly text completions, code snippets, and documentation generation.
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+## Features
 
-## Working with Markdown
+"Elara" enhances your coding with the following features:
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+- **Text Completion**: Generates text completions based on the user's input to assist with coding and documentation.
+- **Code Snippets**: Provides AI-powered code snippets for faster development.
+- **Inline Documentation**: Automatically generates documentation for code segments.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+### Screenshots
 
-## For more information
+Here's "Elara" in action:
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+![Text Completion Feature](images/text-completion.png)
+![Code Snippets Feature](images/code-snippets.png)
 
-**Enjoy!**
+## Requirements
+
+- Visual Studio Code 1.50 or higher.
+- An OpenAI API key set as an environment variable `OPENAI_API_KEY`.
+
+## Installation
+
+To install "Elara", access the Extensions view in Visual Studio Code, search for "Elara", and click `Install`.
+
+## Extension Settings
+
+"Elara" includes the following settings:
+
+- `elara.enable`: Enable/disable this extension.
+- `elara.apiKey`: Configure your OpenAI API key securely.
+
+## Known Issues
+
+Currently, there are no reported issues. For any bugs or unexpected behavior, revising the code and checking API key configurations is recommended.
+
+## Release Notes
+
+### 1.0.0
+
+- Initial release:
+  - Added text completion feature.
+  - Added code snippet generation feature.
+
+### 1.0.1
+
+- Minor fixes and performance enhancements.
+
+## Using Elara
+
+To make the most of Elara, ensure your API key is configured correctly and explore various commands and settings provided by the extension. This will help you integrate AI capabilities smoothly into your development workflow.
+
+Enjoy coding with Elara!
