@@ -1,7 +1,3 @@
-Certainly! Here’s a streamlined version of the README for your Visual Studio Code extension "Elara", focusing on the basic information without links or external references.
-
----
-
 # Elara
 
 This is the README for your Visual Studio Code extension "Elara". "Elara" integrates OpenAI's powerful GPT models into Visual Studio Code, enabling on-the-fly text completions, code snippets, and documentation generation.
