@@ -14,13 +14,6 @@ This is the README for your Visual Studio Code extension "Elara". "Elara" integr
 - **Code Snippets**: Provides AI-powered code snippets for faster development.
 - **Inline Documentation**: Automatically generates documentation for code segments.
 
-### Screenshots
-
-Here's "Elara" in action:
-
-![Text Completion Feature](images/text-completion.png)
-![Code Snippets Feature](images/code-snippets.png)
-
 ## Requirements
 
 - Visual Studio Code 1.50 or higher.
